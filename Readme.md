@@ -104,3 +104,30 @@ With that done, if you want to take the next step of having a central location w
 $ git remote add origin git@github.com:tejr/dotfiles.git
 $ git push -u origin master
 Note that I’m pushing using a public key setup, which you can arrange in the SSH Public Keys section of your GitHub account settings.
+
+
+
+Quick setup — if you’ve done this kind of thing before
+or	
+HTTPS
+SSH
+
+git@github.com:vrazumov/react-pdf-parcel.git
+Get started by creating a new file or uploading an existing file. We recommend every repository include a README, LICENSE, and .gitignore.
+
+…or create a new repository on the command line
+echo "# react-pdf-parcel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:vrazumov/react-pdf-parcel.git
+git push -u origin master
+…or push an existing repository from the command line
+git remote add origin git@github.com:vrazumov/react-pdf-parcel.git
+git push -u origin master
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+git remote add origin gitgit@github.com:vrazumov/react-pdf-parcel.git
+git push git@github.com:vrazumov/react-pdf-parcel.git
